@@ -19,8 +19,9 @@ In order to properly install FLIMagePy, you will need the following:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/FLIMagePy.git
-cd FLIMagePy
+cd ~
+git clone https://github.com/marcusjoshm/ComplexWaveletFilter.git
+cd ComplexWaveletFilter
 ```
 
 ### 2. Set Up a Virtual Environment
@@ -28,7 +29,7 @@ Create and activate a virtual environment:
 
 ```bash
 # Navigate to your desired directory for the virtual environment
-cd /path/to/directory
+cd ~/ComplexWaveletFilter
 
 # Create the virtual environment
 python3 -m venv venv
@@ -42,7 +43,7 @@ source venv/bin/activate
 With the virtual environment activated, navigate to your project directory and install the dependencies:
 
 ```bash
-cd /path/to/directory
+cd ~/ComplexWaveletFilter
 pip install -r requirements.txt
 ```
 
