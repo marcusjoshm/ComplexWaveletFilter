@@ -13,6 +13,15 @@ In order to properly install FLIMagePy, you will need the following:
 - Python 3.6 or later
 - git 2.0 or later
 
+Check the Python version installed on your computer by entering the following in your terminal app
+```bash
+python3 --version
+```
+
+Check the Python version installed on your computer by entering the following in your terminal app
+```bash
+git --version
+```
 ### 1. Clone the Repository
 Open your terminal app and enter the following
 ```bash
