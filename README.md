@@ -1,2 +1,70 @@
 # ComplexWaveletFilter
 The complex wavelet filter applied to phasor transformed TCSPC FLIM data used in Fahim et al. 2024
+
+## Overview
+Complex wavelet filter for TCSPC data from Fahim et al. JCB 2025
+
+## Installation
+To set up the environment and run the scripts, follow these steps:
+
+### 0.0. Installation Requirements
+Before you do anything, you’ll want to make sure your computer is properly set up for installation. This first installation version only works for Mac. Windows and Linux installation instructions will be included in later versions...
+
+In order to properly install FLIMagePy, you will need the following:
+
+- macOS 10.9 (Mavericks) or later
+- Python 3.6 or later
+- git 2.0 or later
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/FLIMagePy.git
+cd FLIMagePy
+```
+
+### 2. Set Up a Virtual Environment
+Create and activate a virtual environment:
+
+```bash
+# Navigate to your desired directory for the virtual environment
+cd /Users/joshuamarcus/python_test_dir
+
+# Create the virtual environment
+python3 -m venv venv
+
+# Activate the virtual environment
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
+```
+
+### 3. Install the Required Dependencies
+With the virtual environment activated, navigate to your project directory and install the dependencies:
+
+```bash
+cd /Users/joshuamarcus/FLIM_processing_dir/scripts
+pip install -r requirements.txt
+```
+
+### 4. Run the Script
+Once the dependencies are installed, you can run the main script:
+
+```bash
+python GMMSegmentation_v2.5.py
+```
+
+### Dependencies
+The following Python packages are required and are listed in the `requirements.txt` file:
+
+- numpy>=1.21.0
+- Pillow>=8.0.0
+- dtcwt>=0.12.0
+- matplotlib>=3.4.0
+- tifffile>=2021.7.2
+- scikit-learn>=0.24.0
+- scipy>=1.6.0
+
+### License
+This project is licensed under the MIT License - see the `LICENSE` file for details.
