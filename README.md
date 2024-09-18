@@ -1,9 +1,6 @@
 # ComplexWaveletFilter
 The complex wavelet filter applied to phasor transformed TCSPC FLIM data used in Fahim et al. 2024
 
-## Overview
-Complex wavelet filter for TCSPC data from Fahim et al. JCB 2025
-
 ## Installation
 To set up the environment and run the scripts, follow these steps:
 
@@ -17,7 +14,7 @@ In order to properly install FLIMagePy, you will need the following:
 - git 2.0 or later
 
 ### 1. Clone the Repository
-
+Open your terminal app and enter the following
 ```bash
 cd ~
 git clone https://github.com/marcusjoshm/ComplexWaveletFilter.git
