@@ -28,7 +28,7 @@ Create and activate a virtual environment:
 
 ```bash
 # Navigate to your desired directory for the virtual environment
-cd /Users/joshuamarcus/python_test_dir
+cd /path/to/directory
 
 # Create the virtual environment
 python3 -m venv venv
@@ -36,15 +36,13 @@ python3 -m venv venv
 # Activate the virtual environment
 # On macOS/Linux:
 source venv/bin/activate
-# On Windows:
-venv\Scripts\activate
 ```
 
 ### 3. Install the Required Dependencies
 With the virtual environment activated, navigate to your project directory and install the dependencies:
 
 ```bash
-cd /Users/joshuamarcus/FLIM_processing_dir/scripts
+cd /path/to/directory
 pip install -r requirements.txt
 ```
 
@@ -52,8 +50,16 @@ pip install -r requirements.txt
 Once the dependencies are installed, you can run the main script:
 
 ```bash
-python GMMSegmentation_v2.5.py
+python ComplexWaveletFilter.py
 ```
+
+A window will popup to select the directory containing .tif files with calibrated and unfiltered phasor coordiantes (G.tif and S.tif) as well as an intensity image (intensity.tif)
+
+Next, enter the harmonic used for the phasor transformation
+
+Next, enter the expected lifetime of the fluoraphore being imaged
+
+Last, enter the desired levels of filtering
 
 ### Dependencies
 The following Python packages are required and are listed in the `requirements.txt` file:
